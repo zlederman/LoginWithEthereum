@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js"></script>
+    <meta charset="utf-8">
+    <title>
+    	Login With Ethereum
+    </title>    
+    <style>
+        .login-form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.login-form-h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+
+.login-form input[type="wallet-id"],
+.login-form input[type="username"]{
+    width:100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login-form input[type="submit"]{
+    width: 100%;
+    padding:15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+    </style>
+  </head>
+  <body>
+      <div class="things">
+        <div class="login-form">
+            <h1>Sign Up Form</h1>
+            <form id="signup">
+              <input type="username" name="user" placeholder="Username" required>
+              <input type="submit">
+          </form>
+          <div class="login-form">
+              <h1>Login Form</h1>
+              <form id="auth">
+                <input type="username" name="user" placeholder="Username" required>
+                <input type="submit">
+            </form>
+            
+        </div>
+      </div>
+      <script src="static/client.js"></script>
+      
+  </body>
+  
+</html>
